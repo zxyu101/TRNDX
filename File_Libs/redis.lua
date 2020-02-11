@@ -264,10 +264,8 @@ function network.read(client, len)
     if not err then return line else
 	local TokenBot = io.open('./inc/Token.txt', "r"):read('*a')
 print("\27[34m"..[[
-
 >> Best Source in Telegram
 >> Features fast and powerful
-
  /$$$$$$$$        /$$                 /$$                
 |__  $$__/       | $$                | $$                
    | $$  /$$$$$$$| $$$$$$$   /$$$$$$ | $$   /$$  /$$$$$$ 
@@ -791,10 +789,8 @@ local function connect_tcp(socket, parameters)
     local ok, err = socket:connect(host, port)
     if not ok then
 	print("\27[34m"..[[
-
 >> Best Source in Telegram
 >> Features fast and powerful
-
  /$$$$$$$$        /$$                 /$$                
 |__  $$__/       | $$                | $$                
    | $$  /$$$$$$$| $$$$$$$   /$$$$$$ | $$   /$$  /$$$$$$ 
