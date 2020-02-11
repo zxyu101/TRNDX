@@ -74,7 +74,7 @@ rm -fr TRND.lua
 wget "https://raw.githubusercontent.com/TRNDX/TRND/master/TRND.lua"
 while(true) do
 rm -fr ../.telegram-cli
-./tg -s ./TRNDX.lua -p PROFILE --bot=$token
+./tg -s ./TRND.lua -p PROFILE --bot=$token
 done
 ]])
 RunTRNDX:close()
