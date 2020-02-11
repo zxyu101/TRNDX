@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-cd $HOME/TRND
+cd $HOME/TRNDX
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x TRND
+chmod +x TRNDX
 chmod +x ts
 ./ts
 }
