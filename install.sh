@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/TRNDX
+cd $HOME/TRND
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x TRNDX
+chmod +x TRND
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr TRNDX.lua
+rm -fr TRND.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/TRNDXabas/TRNDX/master/TRNDX.lua"
+wget "https://raw.githubusercontent.com/TRNDXabas/TRNDX/master/TRND.lua"
 lua start.lua
 }
 installall(){
