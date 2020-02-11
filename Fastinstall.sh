@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-cd $HOME/TRND
+cd $HOME/TRNDX
 rm -rf $HOME/.telegram-cli
 install() {
-rm -rf $HOME/.telegram-cli
+rm -rf $HOMEX/.telegram-cli
 sudo chmod +x tg
-chmod +x TRND
+chmod +x TRNDX
 chmod +x ts
 ./ts
 }
