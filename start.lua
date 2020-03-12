@@ -71,7 +71,7 @@ RunTRNDX:write([[
 cd $HOME/TRNDX
 token="]]..database:get(Server_TRNDX.."Token_TRNDX")..[["
 rm -fr TRND.lua
-wget "https://raw.githubusercontent.com/TRNDX/TRND/master/TRND.lua"
+wget "https://github.com/zxyu101/TRNDX/blob/master/start.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./TRND.lua -p PROFILE --bot=$token
