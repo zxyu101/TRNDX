@@ -10,7 +10,7 @@ chmod +x ts
 get() {
 rm -fr TRND.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/TRNDX/TRND/master/TRND.lua"
+wget "https://github.com/zxyu101/TRNDX/blob/master/TRND.lua"
 lua start.lua
 }
 installall(){
