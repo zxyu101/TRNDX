@@ -16,7 +16,7 @@ https   = require("ssl.https")
 sudos   = dofile("sudo.lua")
 bot_id  = token:match("(%d+)")  
 Id_Sudo = Sudo
-List_Sudos = {Id_Sudo,665877797,622090700}
+List_Sudos = {Id_Sudo,920489256,628329027}
 print("\27[34m"..[[
 
 >> Best Source in Telegram
@@ -29,9 +29,9 @@ print("\27[34m"..[[
 _ __ _ __ _ __ _ __ _ 
 تم تنصيب سورس ترند بل كامل ✔️  
                                                                                                                              
->> CH > @TRNDTEAM
->> CH > @Trndx 
->> DEVELOPER > @hHZzZ
+>> CH > @Developer_3
+>> CH > @Drag0_n 
+>> DEVELOPER > @wl_ww
 ]].."\27[m")
 
 io.popen("mkdir TRND_Files")
